@@ -1,7 +1,11 @@
-import React from "react";
+import ProjectItemGrid from "../../components/ProjectItemGrid/ProjectItemGrid";
 
 const Projects = () => {
-	return <div className="page-container">Projects</div>;
+	return (
+		<div className="page-container">
+			<ProjectItemGrid />
+		</div>
+	);
 };
 
 export default Projects;

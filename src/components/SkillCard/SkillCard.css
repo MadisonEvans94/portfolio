@@ -8,3 +8,16 @@
 .skillcard-container ul li {
 	text-align: center;
 }
+.skillcard-description {
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.3s ease-out;
+}
+
+.skillcard-description.hidden {
+	max-height: 0;
+}
+
+.skillcard-description:not(.hidden) {
+	max-height: 500px; /* Set this to a value greater than the expected height of the description */
+}

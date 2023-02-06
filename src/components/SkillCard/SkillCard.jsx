@@ -15,7 +15,7 @@ const SkillCard = ({ cardTitle, skillList }) => {
 					return <li key={index}>{skill}</li>;
 				})}
 			</ul>
-			<p className={isHidden ? "hidden" : ""}>
+			<p className={`skillcard-description ${isHidden ? "hidden" : ""}`}>
 				Lorem ipsum dolor sit, amet consectetur adipisicing elit. At ad et ut ab
 				ratione nesciunt libero quas, expedita eius tempora? Facilis nulla ipsam
 				numquam temporibus autem? Nisi, placeat ratione fugit libero rem

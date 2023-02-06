@@ -1,12 +1,20 @@
 .skillcard-container {
 	background-color: lightblue;
-	max-width: 300px;
+	max-width: 200px;
 	height: fit-content;
 	padding: 0.5rem;
 	border-radius: 10px;
+	cursor: pointer;
 }
 .skillcard-container h2 {
 	text-align: center;
+}
+.skillcard-container ul {
+	min-height: 6rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 .skillcard-container ul li {
 	text-align: center;
@@ -15,8 +23,7 @@
 .skillcard-description {
 	max-height: 0;
 	overflow: hidden;
-	transition: max-height 0.7s ease-out;
-
+	transition: max-height 0.7s ease-in;
 	margin: 0.5rem;
 }
 

@@ -8,17 +8,17 @@ const skillsArray = [
 	{
 		cardTitle: "Frontend",
 		skillList: ["Javascript", "React", "HTML/CSS/SCSS"],
-		description: "description goes here",
+		description: "this is where we will describe our frontend skills",
 	},
 	{
-		cardTitle: "Frontend",
-		skillList: ["Javascript", "React", "HTML/CSS/SCSS"],
-		description: "description goes here",
+		cardTitle: "Backend",
+		skillList: ["Python", "Java", "Django", "Flask"],
+		description: "this is where we will describe our backend skills",
 	},
 	{
-		cardTitle: "Frontend",
-		skillList: ["Javascript", "React", "HTML/CSS/SCSS"],
-		description: "description goes here",
+		cardTitle: "Other",
+		skillList: ["SolidWorks", "Scitkit Learn", "Ableton"],
+		description: "this is where we will describe any of our other skills",
 	},
 ];
 

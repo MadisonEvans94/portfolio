@@ -1,0 +1,12 @@
+.landing-container {
+	display: flex;
+}
+.name-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0 0 0 3rem;
+}
+.name-container h1 {
+	margin: 0 0 2rem 0;
+}

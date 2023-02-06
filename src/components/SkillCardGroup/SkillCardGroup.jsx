@@ -4,7 +4,7 @@ import "./SkillCardGroup.css";
 
 const SkillCardGroup = ({ skillsArray }) => {
 	return (
-		<div className="skill-group-container grid-item-2">
+		<div className="skill-group-container page-container">
 			{skillsArray.map((skillCard, index) => {
 				return (
 					<SkillCard

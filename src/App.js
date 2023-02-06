@@ -2,6 +2,7 @@ import "./App.css";
 import SkillCardGroup from "./components/SkillCardGroup/SkillCardGroup";
 import Navigation from "./components/Navigation/Navigation";
 import Timeline from "./components/Timeline/Timeline";
+import Landing from "./pages/Landing/Landing";
 //TODO: use skillsArray for skillCardGroup Prop
 const skillsArray = [
 	{
@@ -24,8 +25,10 @@ const skillsArray = [
 function App() {
 	return (
 		<>
-			<div className="grid-container">
+			<div>
 				<Navigation />
+				<Landing />
+				<SkillCardGroup skillsArray={skillsArray} />
 				<Timeline />
 			</div>
 		</>

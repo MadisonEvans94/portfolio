@@ -1,11 +1,13 @@
 .navigation-container {
+	position: fixed;
 	display: flex;
 	flex-direction: column;
-	background-color: gray;
+
 	width: 8rem;
 	justify-content: center;
 	align-items: center;
 	height: 100%;
+	z-index: 10;
 }
 .navigation-container div {
 	display: flex;

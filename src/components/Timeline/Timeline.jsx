@@ -8,9 +8,7 @@ import "react-vertical-timeline-component/style.min.css";
 
 const Timeline = () => {
 	return (
-		<div
-			className="timeline-container inner-box"
-			style={{ backgroundColor: "pink" }}>
+		<div className="timeline-container inner-box">
 			<VerticalTimeline>
 				<VerticalTimelineElement
 					className="vertical-timeline-element--work"

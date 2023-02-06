@@ -1,6 +1,7 @@
 import "./App.css";
 import SkillCardGroup from "./components/SkillCardGroup/SkillCardGroup";
 import Navigation from "./components/Navigation/Navigation";
+import Timeline from "./components/Timeline/Timeline";
 //TODO: use skillsArray for skillCardGroup Prop
 const skillsArray = [
 	{
@@ -25,7 +26,7 @@ function App() {
 		<>
 			<div className="grid-container">
 				<Navigation />
-				<SkillCardGroup skillsArray={skillsArray} />
+				<Timeline />
 			</div>
 		</>
 	);

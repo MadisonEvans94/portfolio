@@ -1,0 +1,10 @@
+.navigation-container {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	background-color: pink;
+	max-width: 8rem;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}

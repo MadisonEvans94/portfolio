@@ -1,7 +1,9 @@
 .skillcard-container {
 	background-color: lightblue;
 	max-width: 300px;
+	height: fit-content;
 	padding: 0.5rem;
+	border-radius: 10px;
 }
 .skillcard-container h2 {
 	text-align: center;

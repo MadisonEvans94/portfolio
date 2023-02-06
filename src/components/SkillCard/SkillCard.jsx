@@ -2,7 +2,7 @@ import React from "react";
 import "./SkillCard.css";
 import { useState } from "react";
 
-const SkillCard = ({ cardTitle, skillList }) => {
+const SkillCard = ({ cardTitle, skillList, description }) => {
 	const [isHidden, setIsHidden] = useState(true);
 	function toggleHidden() {
 		setIsHidden((prevState) => !prevState);
@@ -16,11 +16,7 @@ const SkillCard = ({ cardTitle, skillList }) => {
 				})}
 			</ul>
 			<p className={`skillcard-description ${isHidden ? "hidden" : ""}`}>
-				Lorem ipsum dolor sit, amet consectetur adipisicing elit. At ad et ut ab
-				ratione nesciunt libero quas, expedita eius tempora? Facilis nulla ipsam
-				numquam temporibus autem? Nisi, placeat ratione fugit libero rem
-				ducimus, quam ut, esse minus natus mollitia ab! Reprehenderit maiores
-				non magnam velit inventore quasi sed. Aliquid, laudantium!
+				{description}
 			</p>
 		</div>
 	);

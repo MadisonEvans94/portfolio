@@ -4,7 +4,8 @@ import Navigation from "./components/Navigation/Navigation";
 import Timeline from "./components/Timeline/Timeline";
 import Landing from "./pages/Landing/Landing";
 import Projects from "./pages/Projects/Projects";
-import VideoBackground from "./components/VideoBackground/VideoBackground";
+import SkillPage from "./pages/SkillPage/SkillPage";
+import Experience from "./pages/Experience/Experience";
 //TODO: use skillsArray for skillCardGroup Prop
 const skillsArray = [
 	{
@@ -30,8 +31,12 @@ function App() {
 			<div>
 				<Navigation />
 				<Landing />
-				<SkillCardGroup skillsArray={skillsArray} />
-				<Timeline />
+				<SkillPage>
+					<SkillCardGroup skillsArray={skillsArray} />
+				</SkillPage>
+				<Experience>
+					<Timeline />
+				</Experience>
 				<Projects />
 			</div>
 		</>

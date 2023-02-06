@@ -2,7 +2,7 @@ import React from "react";
 import "./Navigation.css";
 const Navigation = () => {
 	return (
-		<div className="navigation-container">
+		<div className="navigation-container grid-item-1">
 			<div>
 				<h1>Skills</h1>
 			</div>

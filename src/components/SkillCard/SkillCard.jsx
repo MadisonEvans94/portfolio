@@ -19,7 +19,7 @@ const SkillCard = ({ cardTitle, skillList, description }) => {
 
 	return (
 		<div
-			className="skillcard-container"
+			className="skillcard-container inner-box"
 			onMouseEnter={handleMouseEnter}
 			onMouseLeave={handleMouseLeave}>
 			<h2>{cardTitle}</h2>

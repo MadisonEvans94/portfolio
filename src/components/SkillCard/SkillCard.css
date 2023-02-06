@@ -1,0 +1,10 @@
+.skillcard-container {
+	background-color: lightblue;
+	max-width: 300px;
+}
+.skillcard-container h2 {
+	text-align: center;
+}
+.skillcard-container ul li {
+	text-align: center;
+}

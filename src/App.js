@@ -4,6 +4,7 @@ import Navigation from "./components/Navigation/Navigation";
 import Timeline from "./components/Timeline/Timeline";
 import Landing from "./pages/Landing/Landing";
 import Projects from "./pages/Projects/Projects";
+import VideoBackground from "./components/VideoBackground/VideoBackground";
 //TODO: use skillsArray for skillCardGroup Prop
 const skillsArray = [
 	{
